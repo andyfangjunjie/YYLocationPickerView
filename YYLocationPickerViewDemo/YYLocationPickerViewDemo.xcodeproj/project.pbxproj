@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DA2E251E62B0F0009F2A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E241E62B0F0009F2A65 /* main.m */; };
+		09DA2E281E62B0F0009F2A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E271E62B0F0009F2A65 /* AppDelegate.m */; };
+		09DA2E2B1E62B0F0009F2A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E2A1E62B0F0009F2A65 /* ViewController.m */; };
+		09DA2E2E1E62B0F0009F2A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DA2E2C1E62B0F0009F2A65 /* Main.storyboard */; };
+		09DA2E301E62B0F0009F2A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DA2E2F1E62B0F0009F2A65 /* Assets.xcassets */; };
+		09DA2E331E62B0F0009F2A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DA2E311E62B0F0009F2A65 /* LaunchScreen.storyboard */; };
+		09DA2E3E1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E3D1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.m */; };
+		09DA2E491E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E481E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.m */; };
+		09DA2E5D1E62B156009F2A65 /* YYLocationDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E591E62B156009F2A65 /* YYLocationDataBase.m */; };
+		09DA2E5E1E62B156009F2A65 /* YYLocationPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09DA2E5A1E62B156009F2A65 /* YYLocationPickerView.bundle */; };
+		09DA2E5F1E62B156009F2A65 /* YYLocationPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2E5C1E62B156009F2A65 /* YYLocationPickerView.m */; };
+		17653F320A4DC266EAE2D5C6 /* Pods_YYLocationPickerViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B6C2784D4F2A1270210050 /* Pods_YYLocationPickerViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DA2E3A1E62B0F0009F2A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DA2E181E62B0F0009F2A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DA2E1F1E62B0F0009F2A65;
+			remoteInfo = YYLocationPickerViewDemo;
+		};
+		09DA2E451E62B0F0009F2A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DA2E181E62B0F0009F2A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DA2E1F1E62B0F0009F2A65;
+			remoteInfo = YYLocationPickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09DA2E201E62B0F0009F2A65 /* YYLocationPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLocationPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DA2E241E62B0F0009F2A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09DA2E261E62B0F0009F2A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09DA2E271E62B0F0009F2A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09DA2E291E62B0F0009F2A65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09DA2E2A1E62B0F0009F2A65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09DA2E2D1E62B0F0009F2A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09DA2E2F1E62B0F0009F2A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DA2E321E62B0F0009F2A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09DA2E341E62B0F0009F2A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DA2E391E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLocationPickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DA2E3D1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLocationPickerViewDemoTests.m; sourceTree = "<group>"; };
+		09DA2E3F1E62B0F0009F2A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DA2E441E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLocationPickerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DA2E481E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLocationPickerViewDemoUITests.m; sourceTree = "<group>"; };
+		09DA2E4A1E62B0F0009F2A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DA2E571E62B156009F2A65 /* YYLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLocation.h; sourceTree = "<group>"; };
+		09DA2E581E62B156009F2A65 /* YYLocationDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLocationDataBase.h; sourceTree = "<group>"; };
+		09DA2E591E62B156009F2A65 /* YYLocationDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLocationDataBase.m; sourceTree = "<group>"; };
+		09DA2E5A1E62B156009F2A65 /* YYLocationPickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYLocationPickerView.bundle; sourceTree = "<group>"; };
+		09DA2E5B1E62B156009F2A65 /* YYLocationPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLocationPickerView.h; sourceTree = "<group>"; };
+		09DA2E5C1E62B156009F2A65 /* YYLocationPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLocationPickerView.m; sourceTree = "<group>"; };
+		77016795CC25B27C7F4A6CC8 /* Pods-YYLocationPickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLocationPickerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLocationPickerViewDemo/Pods-YYLocationPickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AACE3225CC5DEDF88B24AB1A /* Pods-YYLocationPickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLocationPickerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYLocationPickerViewDemo/Pods-YYLocationPickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B6C2784D4F2A1270210050 /* Pods_YYLocationPickerViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLocationPickerViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DA2E1D1E62B0F0009F2A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17653F320A4DC266EAE2D5C6 /* Pods_YYLocationPickerViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E361E62B0F0009F2A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E411E62B0F0009F2A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DA2E171E62B0F0009F2A65 = {
+			isa = PBXGroup;
+			children = (
+				09DA2E561E62B156009F2A65 /* YYLocationPickerView */,
+				09DA2E221E62B0F0009F2A65 /* YYLocationPickerViewDemo */,
+				09DA2E3C1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests */,
+				09DA2E471E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests */,
+				09DA2E211E62B0F0009F2A65 /* Products */,
+				E3695D1C9A92162065B30D3D /* Pods */,
+				B75B17AEB260B49CAE986F0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09DA2E211E62B0F0009F2A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E201E62B0F0009F2A65 /* YYLocationPickerViewDemo.app */,
+				09DA2E391E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.xctest */,
+				09DA2E441E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DA2E221E62B0F0009F2A65 /* YYLocationPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E261E62B0F0009F2A65 /* AppDelegate.h */,
+				09DA2E271E62B0F0009F2A65 /* AppDelegate.m */,
+				09DA2E291E62B0F0009F2A65 /* ViewController.h */,
+				09DA2E2A1E62B0F0009F2A65 /* ViewController.m */,
+				09DA2E2C1E62B0F0009F2A65 /* Main.storyboard */,
+				09DA2E2F1E62B0F0009F2A65 /* Assets.xcassets */,
+				09DA2E311E62B0F0009F2A65 /* LaunchScreen.storyboard */,
+				09DA2E341E62B0F0009F2A65 /* Info.plist */,
+				09DA2E231E62B0F0009F2A65 /* Supporting Files */,
+			);
+			path = YYLocationPickerViewDemo;
+			sourceTree = "<group>";
+		};
+		09DA2E231E62B0F0009F2A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E241E62B0F0009F2A65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09DA2E3C1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E3D1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.m */,
+				09DA2E3F1E62B0F0009F2A65 /* Info.plist */,
+			);
+			path = YYLocationPickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		09DA2E471E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E481E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.m */,
+				09DA2E4A1E62B0F0009F2A65 /* Info.plist */,
+			);
+			path = YYLocationPickerViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		09DA2E561E62B156009F2A65 /* YYLocationPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2E5A1E62B156009F2A65 /* YYLocationPickerView.bundle */,
+				09DA2E571E62B156009F2A65 /* YYLocation.h */,
+				09DA2E581E62B156009F2A65 /* YYLocationDataBase.h */,
+				09DA2E591E62B156009F2A65 /* YYLocationDataBase.m */,
+				09DA2E5B1E62B156009F2A65 /* YYLocationPickerView.h */,
+				09DA2E5C1E62B156009F2A65 /* YYLocationPickerView.m */,
+			);
+			name = YYLocationPickerView;
+			path = ../YYLocationPickerView;
+			sourceTree = "<group>";
+		};
+		B75B17AEB260B49CAE986F0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B6C2784D4F2A1270210050 /* Pods_YYLocationPickerViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3695D1C9A92162065B30D3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AACE3225CC5DEDF88B24AB1A /* Pods-YYLocationPickerViewDemo.debug.xcconfig */,
+				77016795CC25B27C7F4A6CC8 /* Pods-YYLocationPickerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DA2E1F1E62B0F0009F2A65 /* YYLocationPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DA2E4D1E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemo" */;
+			buildPhases = (
+				47C8CD2B86C1681841943496 /* [CP] Check Pods Manifest.lock */,
+				09DA2E1C1E62B0F0009F2A65 /* Sources */,
+				09DA2E1D1E62B0F0009F2A65 /* Frameworks */,
+				09DA2E1E1E62B0F0009F2A65 /* Resources */,
+				A180AF5E67144D1AD9B6EA24 /* [CP] Embed Pods Frameworks */,
+				9FD62417C802569DD4E631FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYLocationPickerViewDemo;
+			productName = YYLocationPickerViewDemo;
+			productReference = 09DA2E201E62B0F0009F2A65 /* YYLocationPickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DA2E381E62B0F0009F2A65 /* YYLocationPickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DA2E501E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemoTests" */;
+			buildPhases = (
+				09DA2E351E62B0F0009F2A65 /* Sources */,
+				09DA2E361E62B0F0009F2A65 /* Frameworks */,
+				09DA2E371E62B0F0009F2A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DA2E3B1E62B0F0009F2A65 /* PBXTargetDependency */,
+			);
+			name = YYLocationPickerViewDemoTests;
+			productName = YYLocationPickerViewDemoTests;
+			productReference = 09DA2E391E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09DA2E431E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DA2E531E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemoUITests" */;
+			buildPhases = (
+				09DA2E401E62B0F0009F2A65 /* Sources */,
+				09DA2E411E62B0F0009F2A65 /* Frameworks */,
+				09DA2E421E62B0F0009F2A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DA2E461E62B0F0009F2A65 /* PBXTargetDependency */,
+			);
+			name = YYLocationPickerViewDemoUITests;
+			productName = YYLocationPickerViewDemoUITests;
+			productReference = 09DA2E441E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DA2E181E62B0F0009F2A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "上海涵予信息科技有限公司";
+				TargetAttributes = {
+					09DA2E1F1E62B0F0009F2A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					09DA2E381E62B0F0009F2A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09DA2E1F1E62B0F0009F2A65;
+					};
+					09DA2E431E62B0F0009F2A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09DA2E1F1E62B0F0009F2A65;
+					};
+				};
+			};
+			buildConfigurationList = 09DA2E1B1E62B0F0009F2A65 /* Build configuration list for PBXProject "YYLocationPickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DA2E171E62B0F0009F2A65;
+			productRefGroup = 09DA2E211E62B0F0009F2A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DA2E1F1E62B0F0009F2A65 /* YYLocationPickerViewDemo */,
+				09DA2E381E62B0F0009F2A65 /* YYLocationPickerViewDemoTests */,
+				09DA2E431E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DA2E1E1E62B0F0009F2A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DA2E331E62B0F0009F2A65 /* LaunchScreen.storyboard in Resources */,
+				09DA2E301E62B0F0009F2A65 /* Assets.xcassets in Resources */,
+				09DA2E2E1E62B0F0009F2A65 /* Main.storyboard in Resources */,
+				09DA2E5E1E62B156009F2A65 /* YYLocationPickerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E371E62B0F0009F2A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E421E62B0F0009F2A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C8CD2B86C1681841943496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD62417C802569DD4E631FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYLocationPickerViewDemo/Pods-YYLocationPickerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A180AF5E67144D1AD9B6EA24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYLocationPickerViewDemo/Pods-YYLocationPickerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DA2E1C1E62B0F0009F2A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DA2E2B1E62B0F0009F2A65 /* ViewController.m in Sources */,
+				09DA2E281E62B0F0009F2A65 /* AppDelegate.m in Sources */,
+				09DA2E251E62B0F0009F2A65 /* main.m in Sources */,
+				09DA2E5F1E62B156009F2A65 /* YYLocationPickerView.m in Sources */,
+				09DA2E5D1E62B156009F2A65 /* YYLocationDataBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E351E62B0F0009F2A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DA2E3E1E62B0F0009F2A65 /* YYLocationPickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DA2E401E62B0F0009F2A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DA2E491E62B0F0009F2A65 /* YYLocationPickerViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DA2E3B1E62B0F0009F2A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DA2E1F1E62B0F0009F2A65 /* YYLocationPickerViewDemo */;
+			targetProxy = 09DA2E3A1E62B0F0009F2A65 /* PBXContainerItemProxy */;
+		};
+		09DA2E461E62B0F0009F2A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DA2E1F1E62B0F0009F2A65 /* YYLocationPickerViewDemo */;
+			targetProxy = 09DA2E451E62B0F0009F2A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09DA2E2C1E62B0F0009F2A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DA2E2D1E62B0F0009F2A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09DA2E311E62B0F0009F2A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DA2E321E62B0F0009F2A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DA2E4B1E62B0F0009F2A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09DA2E4C1E62B0F0009F2A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DA2E4E1E62B0F0009F2A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACE3225CC5DEDF88B24AB1A /* Pods-YYLocationPickerViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYLocationPickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09DA2E4F1E62B0F0009F2A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77016795CC25B27C7F4A6CC8 /* Pods-YYLocationPickerViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYLocationPickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09DA2E511E62B0F0009F2A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYLocationPickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLocationPickerViewDemo.app/YYLocationPickerViewDemo";
+			};
+			name = Debug;
+		};
+		09DA2E521E62B0F0009F2A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYLocationPickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLocationPickerViewDemo.app/YYLocationPickerViewDemo";
+			};
+			name = Release;
+		};
+		09DA2E541E62B0F0009F2A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYLocationPickerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYLocationPickerViewDemo;
+			};
+			name = Debug;
+		};
+		09DA2E551E62B0F0009F2A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYLocationPickerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hanyu365.YYLocationPickerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYLocationPickerViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DA2E1B1E62B0F0009F2A65 /* Build configuration list for PBXProject "YYLocationPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DA2E4B1E62B0F0009F2A65 /* Debug */,
+				09DA2E4C1E62B0F0009F2A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DA2E4D1E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DA2E4E1E62B0F0009F2A65 /* Debug */,
+				09DA2E4F1E62B0F0009F2A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DA2E501E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DA2E511E62B0F0009F2A65 /* Debug */,
+				09DA2E521E62B0F0009F2A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DA2E531E62B0F0009F2A65 /* Build configuration list for PBXNativeTarget "YYLocationPickerViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DA2E541E62B0F0009F2A65 /* Debug */,
+				09DA2E551E62B0F0009F2A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DA2E181E62B0F0009F2A65 /* Project object */;
+}
