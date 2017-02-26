@@ -13,5 +13,11 @@ YYLocationPickerView *location = [[YYLocationPickerView alloc] initWithLevel:YYL
 {
     NSLog(@"%@ - %@",location,locationID);
 }
-
 ```
+
+##一级实例
+![image](https://github.com/andyfangjunjie/YYLocationPickerView/raw/master/Resources/一级.png)
+##二级实例
+![image](https://github.com/andyfangjunjie/YYLocationPickerView/raw/master/Resources/二级.png)
+##三级实例
+![image](https://github.com/andyfangjunjie/YYLocationPickerView/raw/master/Resources/三级.png)
